@@ -53,10 +53,19 @@ header>p {
     padding-left: 5%;
 }
 
+header nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    /*border-bottom: 0.2rem solid;
+    border-image: linear-gradient(45deg, white, lightgrey) 1;*/
+}
+
 header nav ul {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 2%
+    padding-top: 2%;
 }
 
 header nav li {
@@ -68,11 +77,13 @@ header a {
     color: rgb(51, 63, 57);
 }
 
+#menu-icon {
+    visibility: hidden;
+}
 
 #title {
     font-family: "Curlz MT";
     font-size: 8vh;
-    background-color: none;
     position: relative;
     top: 45%;
     width: 40vw;
@@ -253,7 +264,7 @@ footer li a {
         flex-wrap: wrap;
     }
 
-    article {
+    article, #uebermich {
         width: 100%;
     }
 
@@ -265,13 +276,19 @@ footer li a {
         background-size: 80%;
     }
 
-
     #title {
         top: 40%;
     }
 
     #newsletter button {
         font-size: 3vh;
+    }
+
+    #menu-icon {
+        visibility: visible;
+    }
+    header nav li {
+        visibility: hidden;
     }
 }
     @media only screen and (min-width: 1200px) {
