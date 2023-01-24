@@ -138,7 +138,7 @@ aside ul li {
 }
 
 aside ul li a {
-    font-size: 4vh;
+    font-size: 2vw;
 }
 
 aside ul li a:hover {
@@ -265,9 +265,6 @@ footer li a {
         background-size: 80%;
     }
 
-    aside ul li a {
-        font-size: 3vh;
-    }
 
     #title {
         top: 40%;
@@ -276,7 +273,7 @@ footer li a {
     #newsletter button {
         font-size: 3vh;
     }
-
+}
     @media only screen and (min-width: 1200px) {
         aside ul {
             width: 70%;
