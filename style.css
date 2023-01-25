@@ -234,6 +234,8 @@ footer li a {
 
 #foto2{
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 0px rgba(52, 55, 57, 1);
 }
 
 .fotocaption {
