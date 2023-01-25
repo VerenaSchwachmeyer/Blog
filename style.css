@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-    font-size: 3vh;
+    font-size: 1.6vw;
     color: grey;
 }
 
@@ -124,7 +124,7 @@ aside, .hoverwrap {
 }
 
 #aside-title {
-    font-size: 4vh;
+    font-size: 1vw;
     color: rgb(51, 63, 57);
     text-align: center;
     padding-bottom: 5%;
@@ -149,7 +149,7 @@ aside ul li {
 }
 
 aside ul li a {
-    font-size: 2vw;
+    font-size: 1.7vw;
 }
 
 aside ul li a:hover {
@@ -168,23 +168,23 @@ footer {
 }
 
 footer li a {
-
-    font-size: 2.5vh;
+    font-size: 1.5vw;
 }
 
 #newsletter {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 3vh;
+    font-size: 1.5vw;
     gap: 5%;
 }
 
 #newsletter h3 {
-
     text-align: center;
     color: black;
     background-color: rgb(233, 231, 231);
+    width: 20vw;
+    font-size: 75%;
 }
 
 #newsletter input {
@@ -292,8 +292,17 @@ footer li a {
     }
 }
     @media only screen and (min-width: 1200px) {
+        section{
+            padding-left: 15%;
+            padding-right: 15%;
+        }
+        
         aside ul {
             width: 70%;
+        }
+
+        aside ul li a {
+            font-size: 1.5vw;
         }
         article {
             width: 80%;
