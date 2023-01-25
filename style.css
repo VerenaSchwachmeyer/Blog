@@ -199,7 +199,6 @@ footer li a {
     width: 20vw; 
     height: 8vh;
     border: 1px solid #D55C5F;
-   
     box-shadow: none;
         /* Remove default red glow in Firefox */
 }
