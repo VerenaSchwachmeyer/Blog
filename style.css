@@ -37,7 +37,7 @@ a:hover {
 
 /*header */
 header {
-    background-image: url("./Plant Leaf.jpg");
+    background-image: url("./images/Plant Leaf.jpg");
     height: 50vh;
     max-width: auto;
     background-position: right;
@@ -45,6 +45,7 @@ header {
     background-repeat: no-repeat;
     border-bottom: 0.2rem solid;
     border-image: linear-gradient(45deg, white, lightgrey) 1;
+
 }
 
 header>p {
